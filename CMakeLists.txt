@@ -4,4 +4,7 @@ project(web C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(web main.c
-        router.h)
+        router.h
+        request.h
+        todo.h
+        response.h)
